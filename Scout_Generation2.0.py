@@ -213,7 +213,7 @@ def table_finder_modification():
    conference_table["FG%"] = conference_table["FG%"].astype(str) + "%"
    
     
-   
+   #Changing the names
    all_table["FG Att are 3s"] = all_table["FG Att are 3s"].astype(float)
    all_table["FG Att/Game"] = all_table["FG Att/Game"].astype(float)  
    all_table["FT Att/Game"] =  all_table["FT Att/Game"].astype(float)
